@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as Renderer from "react-test-renderer";
-import { Sum } from "../src/main";
+import { Sum } from "../src/";
 
 describe("Sum", () => {
   test("Renders", () => {
