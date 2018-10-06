@@ -14,7 +14,6 @@
     "@types/react": "^16.4.15",
     "@types/react-dom": "^16.0.8",
     "@types/react-test-renderer": "^16.0.3",
-    "comment-json": "^1.1.3",
     "jest": "^23.6.0",
     "parcel-bundler": "^1.10.1",
     "react": "^16.5.2",
@@ -22,22 +21,13 @@
     "react-test-renderer": "^16.5.2",
     "rollup": "^0.66.4",
     "rollup-plugin-typescript2": "^0.17.1",
+    "ts-jest": "^23.10.3",
     "typescript": "^3.1.1"
   },
   "peerDependencies": {
     "react": ">= 16.0.0"
   },
   "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
-    },
-    "testMatch": [
-      "**/__tests__/*.(ts|tsx|js)"
-    ]
+    "preset": "ts-jest"
   }
 }
