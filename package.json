@@ -1,8 +1,8 @@
 {
   "name": "ts-react-component",
   "version": "0.1.0",
-  "main": "dist/index.js",
-  "module": "dist/index.m.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "license": "MIT",
   "scripts": {
     "start": "parcel ./demo/index.html --open",
