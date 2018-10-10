@@ -37,6 +37,11 @@
     "preset": "ts-jest",
     "collectCoverageFrom": [
       "src/*.{ts,tsx}"
+    ],
+    "testPathIgnorePatterns": [
+      "node_modules/",
+      "/build/",
+      "/dist/"
     ]
   },
   "browserslist": [
